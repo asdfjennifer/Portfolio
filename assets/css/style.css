@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =======================================
+                FONTS
+
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+========================================
+                BODY 
+========================================*/
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+/* Orbis & Galito's */
+h3 {
+    font-size: 112px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 50px 0px;
+    color: #fff;
+}
+
+/* ===================
+White Link (Button)*/
+.whiteButton {
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    position: absolute;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.whiteButton:hover {
+    border: 1px solid #fff;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+}
+/*===================*/
+
+/* Rollr & Tretto */
+h4 {
+    font-size: 112px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 50px 0px;
+    color: #000;
+}
+
+/* ===================
+Black Link (Button)*/
+.blackButton {
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    padding: 20px 30px;
+    position: absolute;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.blackButton:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+}
+
+/* =======================================
+                HEADER
+========================================*/
+
+header p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px 0px 50px;
+}
+
+/* Digital Designer */
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0px 360px;
+    font-weight: 400;
+}
+
+.portfolio1 {
+    width: 50rem;
+    margin: 40px 0px;
+}
+
+/* =======================================
+                MAIN
+========================================*/
+
+/* Work */
+h2 {
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+/* ============
+    Section 1    
+==============*/
+
+.section1 {
+    background-image: url(../img/portfolio2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #9b9b9b;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 250px;
+}
+
+/*========= 01 ==========*/
+.section1 span { 
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 149px;
+    height: 207px;
+    left: 1171px;
+    top: 2480px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+}
+
+.section1 span:hover {
+    color: #fff;
+}
+
+/* ============
+    Section 2    
+==============*/
+
+.section2 {
+    background-image: url(../img/portfolio3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #9b9b9b;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 250px;
+}
+
+/*========= 02 ==========*/
+.section2 span { 
+    color: rgba(102, 102, 102, 0.9);
+    position: absolute;
+    width: 162px;
+    height: 207px;
+    left: 1158px;
+    top: 3406px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+}
+
+.section2 span:hover {
+    color: #000;
+}
+
+/* ============
+    Section 3  
+==============*/
+
+.section3 {
+    background-image: url(../img/portfolio4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #9b9b9b;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 250px;
+}
+
+/*========= 03 ==========*/
+.section3 span { 
+    color: rgba(158, 158, 158, 0.2);
+    position: absolute;
+    width: 165px;
+    height: 207px;
+    left: 1155px;
+    top: 4362px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+}
+
+.section3 span:hover {
+    color: #fff;
+}
+
+/* ============
+    Section 4   
+==============*/
+
+.section4 {
+    background-image: url(../img/portfolio5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #666;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 250px;
+}
+
+/*========= 04 ==========*/
+.section4 span { 
+    color: rgba(102, 102, 102, 0.9);
+    position: absolute;
+    width: 170px;
+    height: 207px;
+    left: 1150px;
+    top: 5288px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+}
+
+.section4 span:hover {
+    color: #000;
+}
+
+/* ========================
+    Section 5 / Contact
+==========================*/
+
+.contact {
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #666;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 250px;
+}
+
+/* What more? */
+h5 {
+    color: #fff;
+    font-size: 180px;
+    font-weight: 400;
+    letter-spacing: -0.1em;
+    text-align: center;
+}
+
+.contact p {
+    text-align: left;
+    margin-left: 640px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height:200%
+}
+
+/*=== Email ===*/
+.contact a {
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-family: 'Work Sans';
+    margin-left: 640px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* =======================================
+                FOOTER
+========================================*/
+
+footer div {
+    margin: 150px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 150px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 160px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/*=== Heart ===*/
+#heart {
+	font-size: 15px;
+	color: #000;
+	animation: beat .5s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
